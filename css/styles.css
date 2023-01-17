@@ -1,3 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #41463D, #4C6672);
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #DA5455 !important;
+}
+
+@media(max-width:668px) {
+    .nav-link {
+        text-align: center;
+    }
+}
+
 h1 {
     font-size: 2rem;
 }
@@ -7,5 +36,25 @@ h2 {
 }
 
 h6 {
+    color: #2E2E2E;
     font-size: 1rem;
 }
+
+body {
+    background-color: #FCFBF9;
+}
+
+.fa-solid {
+    color:#4A62AC;
+}
+
+p.main-text {
+    line-height: 3;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* red color: #DA5455;
+another red color: #970C10; 
+navy blue: #072F63;
+lighter navy blue: #4A62AC;*/
